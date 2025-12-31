@@ -12,14 +12,14 @@ NEMA consists of three high-complexity layers:
 
 2. **The Agentic Core (Python/LLM):**
    - **Orchestrator Agent:** Decomposes macro-economic signals into trade hypotheses.
-   - **Analyst Agent:** Uses PyTorch/TensorFlow for deep learning feature extraction[cite: 16, 43].
+   - **Analyst Agent:** Uses PyTorch/TensorFlow for deep learning feature extraction.
    - **Risk Agent:** Enforces constraints to prevent catastrophic drawdown.
 
 3. **The MLOps Infrastructure (GCP/AWS):**
-   - **KNative/Serverless:** Agents scale dynamically based on market volatility[cite: 16, 43].
-   - **Real-time Pipeline:** Kafka streams OHLCV data to the evolved agent swarm[cite: 18].
+   - **KNative/Serverless:** Agents scale dynamically based on market volatility.
+   - **Real-time Pipeline:** Kafka streams OHLCV data to the evolved agent swarm.
 
 ### 🛠 Tech Stack
 - **Languages:** C++ (Simulation), Python (AI), Rust (Execution).
 - **Frameworks:** PyTorch, Ray (Distributed Computing), KNative.
-- **Cloud:** GCP VertexAI, AWS Lambda, Docker/Kubernetes[cite: 16, 17, 18].
+- **Cloud:** GCP VertexAI, AWS Lambda, Docker/Kubernetes.
